@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export const Navbar = () => {
+
+  const [name, setName] = useState('Nicardo Lannaman')
   return (
     <div className="sidebar">
-    <h3>Organizer... I guess</h3>
+      <div className="user-info">
+        
+        <h3>{name}</h3>
+
+      </div>
     <ul className='sidenav'>     
           <li>         
               <a href="/dashboard">Main Dashboard</a>            
