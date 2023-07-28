@@ -5,7 +5,11 @@ export const Notes = () => {
     
 const [notes, setNotes] = useState([
     {title: 'The Dynamic Bomboclaat', body: 'Lorem fam', id: 1},
-    {title: 'The highest level of Fuckery', body: 'Lorem fam', id: 2}
+    {title: 'The highest level of Fuckery', body: 'Lorem fam', id: 2},
+    {title: 'BLOUSE AND SKIRT', body: 'Lorem fam', id: 3},
+    {title: 'I should be asleep', body: 'Lorem fam', id: 4},
+    {title: 'Oh fucking really', body: 'Lorem fam', id: 5},
+    {title: 'Jah Jah God lol', body: 'Lorem fam', id: 6}
     
 ]);
 
@@ -28,7 +32,7 @@ const [notes, setNotes] = useState([
         })}
     </div>
 
-    hhkkhkh
+    
     </>
     
   )

@@ -80,18 +80,27 @@ li:nth-child(5) {
     background-color: rgb(209, 217, 255);
     position: absolute;
     left: 280px;
-    height: 100vh;
+    min-height: 100vh;
+    /* position: fixed; */
 }
 
-.notes-head {
-    
-}
+
 
 .headers {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     margin: 10px;
+}
+
+.headers button {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    background-color: rgb(16, 16, 47);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .notes {
@@ -101,9 +110,19 @@ li:nth-child(5) {
 
 .note-preview {
     background-color: #fff;
-    padding: 0.8rem;
+    padding: 1.2rem 0.5rem;
     margin-top: 20px;
     border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.note-preview:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 8px rgba(16, 16, 47, 0.413);
+    
 }
 
 
