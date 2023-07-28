@@ -4,10 +4,10 @@ export const Notes = () => {
 
     
 const [notes, setNotes] = useState([
-    {title: 'something', body: 'Lorem fam', id: 1},
-    {title: 'something1', body: 'Lorem fam', id: 2},
-    {title: 'something2', body: 'Lorem fam', id: 3}
-])
+    {title: 'The Dynamic Bomboclaat', body: 'Lorem fam', id: 1},
+    {title: 'The highest level of Fuckery', body: 'Lorem fam', id: 2}
+    
+]);
 
   return (
     <>
@@ -16,11 +16,19 @@ const [notes, setNotes] = useState([
         <button>Create Note!</button>
     </div>
     <div className="notes">
+        
         {notes.map((note) => {
-            console.log(note)
+          return (  
+            <div className="note-preview">
+                <h2>{note.title}</h2>
+                <br />
+                <p>{note.body}</p>
+            </div>)
             
         })}
     </div>
+
+    hhkkhkh
     </>
     
   )
