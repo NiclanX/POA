@@ -75,6 +75,13 @@ li:nth-child(5) {
     margin-top: 260px;
 }
 
+.container {
+    width: calc(100% - 280px);
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    left: 280px;
+    height: 100vh;
+}
 
 
 
