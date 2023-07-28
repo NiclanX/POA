@@ -78,9 +78,20 @@ li:nth-child(5) {
 .container {
     width: calc(100% - 280px);
     background-color: rgb(231, 231, 231);
-    position: relative;
+    position: absolute;
     left: 280px;
     height: 100vh;
+}
+
+.notes-head {
+    
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 10px;
 }
 
 
