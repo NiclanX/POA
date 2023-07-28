@@ -15,9 +15,11 @@ export const Navbar = () => {
               <a href="/budgets">Bugets</a>            
           </li>
           <li>          
-            <a href="/ActionPlans">Action Plans</a>            
+            <a href="/actionplans">Action Plans</a>            
           </li>
-         
+          <li>          
+            <a href="/settings">Settings</a>            
+          </li>
     </ul>
    </div>
   )
