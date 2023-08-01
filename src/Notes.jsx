@@ -31,13 +31,10 @@ useEffect(()=> {
                 <h2>{note.title}</h2>
                 <br />
                 <p>{note.body}</p>
-            </div>)
-            
+                <button onClick={()=>{handleDelete(note.id)}}>Delete Note</button>
+            </div>)            
         })}
-    </div>}
-
-    
-    </>
-    
+    </div>}    
+    </>    
   )
 }
